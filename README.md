@@ -1005,6 +1005,7 @@ This command is especially useful for debugging traffic issues and understanding
 Linkerd is a lightweight and easy-to-use service mesh, perfect for users who need simplicity and speed without sacrificing essential service mesh features such as security, observability, and traffic management. Its Rust-based proxy ensures minimal overhead and performance while providing robust features for managing microservices communication.
 
 For teams that prioritize low resource consumption and ease of use, Linkerd offers a compelling choice, especially in Kubernetes environments.
+
 ---
 
 
@@ -1014,9 +1015,6 @@ For teams that prioritize low resource consumption and ease of use, Linkerd offe
 ---
 
 #### Consul Service Mesh with Consul Connect
-
-![image](https://github.com/user-attachments/assets/e98dddc7-a7b3-4a6e-bf56-ad7650faa194)
-
 
 The key components of Consul's service mesh are:
 
@@ -1224,7 +1222,7 @@ Unlike traditional apps, service mesh-powered environments give **deep visibilit
 * **Logs**: Detailed traces from Envoy and other proxies.
 * **Traces**: Distributed tracing across services for end-to-end latency analysis.
 
-**Diagram 13: Metrics and Telemetry Pipeline**
+**Metrics and Telemetry Pipeline**
 
 ![image](https://github.com/user-attachments/assets/fbcb23c0-677d-4b12-a663-2afbf84985f8)
 
@@ -1250,7 +1248,7 @@ scrape_configs:
         action: keep
 ```
 
-**📈 Screenshot: Grafana Dashboard (Envoy Metrics)**
+**📈 Grafana Dashboard (Envoy Metrics)**
 (*Visual here would include graphs for request rate, error rate, latency percentiles.*)
 
 Key Panels:
@@ -1672,9 +1670,9 @@ In production systems, rolling out changes safely is crucial. Service meshes lik
 
 ---
 
-### **b: Diagram + YAML Examples**
+### **b: YAML Examples**
 
-**Diagram 17: Percentage-based Traffic Routing**
+**Percentage-based Traffic Routing**
 *Depicts traffic being routed 90% to Service v1 and 10% to Service v2 through the VirtualService configuration (diagram incoming).*
 
 ---
@@ -1777,9 +1775,9 @@ Service meshes introduce powerful features—but also complexity. Debugging issu
 
 ---
 
-### **b: Diagram + Common Issue Checklist**
+### **b: Common Issue Checklist**
 
-**Diagram 18: Envoy Admin Interface Usage**
+**Envoy Admin Interface Usage**
 *(Diagram incoming: Shows accessing the admin endpoint on `localhost:15000`, using /clusters, /stats, and /config\_dump for diagnostics.)*
 
 **Checklist: Common Issues & Fixes**
