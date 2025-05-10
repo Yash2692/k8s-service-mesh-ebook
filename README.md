@@ -327,7 +327,7 @@ The control plane configures the data plane, which includes the sidecar proxies 
 ![image](https://github.com/user-attachments/assets/627871f7-ca92-4093-8361-84233b2d2c66)
 
 
-### **📄 Subsection 1: Istio **
+### **📄 1: Istio**
 
 ---
 
@@ -353,7 +353,7 @@ The control plane configures the data plane, which includes the sidecar proxies 
 
 ---
 
-### **📄 Subsection 2: Linkerd**
+### **📄 2: Linkerd**
 
 ---
 
@@ -378,7 +378,7 @@ The control plane configures the data plane, which includes the sidecar proxies 
 
 ---
 
-### **📄 Subsection 3: Consul**
+### **📄 3: Consul**
 
 ---
 
@@ -403,7 +403,7 @@ The control plane configures the data plane, which includes the sidecar proxies 
 
 ---
 
-### **📄 Subsection 4: Kuma**
+### **📄 4: Kuma**
 
 ---
 
@@ -448,9 +448,7 @@ This section should give you a solid understanding of the popular service meshes
 
 ![image](https://github.com/user-attachments/assets/526cc9cb-ca16-452d-9714-affc1fd6a243)
 
-### **📄 Infographic: Packet Path from Pod A → Proxy → Pod B**
-
-**\[Infographic]**
+### **📄 Packet Path from Pod A → Proxy → Pod B**
 
 1. **Pod A**: A Kubernetes pod running a microservice. The pod initiates a request to communicate with another pod.
 
@@ -609,9 +607,9 @@ Sidecar proxies like Envoy work by intercepting network traffic between microser
 
 Sidecar proxies like Envoy are an essential part of modern service meshes, providing a lightweight, centralized mechanism for managing traffic, security, and observability across distributed microservices. While they introduce some overhead in terms of CPU and memory usage, their benefits in terms of scalability, resilience, and observability make them a critical component in microservices architectures.
 
+---
 
-
-### **📄 Section 7: Data vs. Control Plane **
+### **📄 Section 7: Data vs. Control Plane**
 
 ---
 
@@ -687,10 +685,10 @@ Sidecar proxies like Envoy are an essential part of modern service meshes, provi
 Both planes are essential for a functioning service mesh, ensuring the secure, efficient, and observable communication between microservices. The distinction between them is crucial for understanding how service meshes operate and how they can be optimized for performance and scalability.
 
 
+---
 
 
-
-### **📄 Section 8: Service Mesh Features **
+### **📄 Section 8: Service Mesh Features**
 
 ---
 
@@ -798,9 +796,9 @@ spec:
 Service meshes provide a powerful set of features that enhance the management, security, and observability of microservices architectures. By leveraging tools like traffic splitting for canary deployments, mTLS for security, and observability features like distributed tracing and metrics collection, service meshes make it easier to deploy, monitor, and scale complex distributed applications.
 
 
+---
 
-
-### **📄 Section 9: Istio Deep Dive **
+### **📄 Section 9: Istio Deep Dive**
 
 ---
 
@@ -913,9 +911,9 @@ This command will display the running Istio components in the `istio-system` nam
 
 Istio is a feature-rich service mesh platform that enables advanced traffic management, security, and observability for microservices. Its architecture, based on components like Pilot, Citadel, and Galley, allows it to manage complex service-to-service communication and enforce policies at scale. With its powerful tools, Istio can ensure that your microservices are secure, resilient, and observable, making it a crucial tool in any cloud-native environment.
 
+---
 
-
-### **📄 Section 10: Linkerd Deep Dive **
+### **📄 Section 10: Linkerd Deep Dive**
 
 ---
 
@@ -1007,9 +1005,11 @@ This command is especially useful for debugging traffic issues and understanding
 Linkerd is a lightweight and easy-to-use service mesh, perfect for users who need simplicity and speed without sacrificing essential service mesh features such as security, observability, and traffic management. Its Rust-based proxy ensures minimal overhead and performance while providing robust features for managing microservices communication.
 
 For teams that prioritize low resource consumption and ease of use, Linkerd offers a compelling choice, especially in Kubernetes environments.
+---
 
 
-### **📄 Section 11: Consul Deep Dive **
+
+### **📄 Section 11: Consul Deep Dive**
 
 ---
 
@@ -1111,9 +1111,9 @@ Consul's **intentions** and **service discovery** capabilities, along with its a
 
 
 
+---
 
-
-### **📄 Section 12: Kuma & Universal Meshes **
+### **📄 Section 12: Kuma & Universal Meshes**
 
 ---
 
@@ -1198,7 +1198,7 @@ A fintech company operating secure workloads in **bare-metal data centers** and 
 **Final Thought**:
 Kuma is **developer-friendly**, **platform-agnostic**, and well-suited for teams looking to avoid the **complexity of Istio** while needing a flexible, secure mesh across environments.
 
-
+---
 
 
 ### 📄 Section 13: Observability & Telemetry
