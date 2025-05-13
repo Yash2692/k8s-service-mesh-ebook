@@ -1,14 +1,3 @@
-# **Service Meshes in Kubernetes: The Definitive Guide**
-
-*Master Istio, Linkerd, Consul, and More*
-
-
-<img width="383" alt="Screenshot 2025-05-10 at 6 16 19 PM" src="https://github.com/user-attachments/assets/26e2d0cf-059b-42b1-b6ed-60334438cef0" />
-
-- 📖 Author: Vijay Kumar Anuganti
-- 📅 Date: May 2025
-
-
 
 > “A comprehensive, production-grade guide to mastering service meshes in cloud-native Kubernetes environments.”
 
